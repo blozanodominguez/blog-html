@@ -1,0 +1,18 @@
+h1 {
+  background-color: rgb(111, 146, 243);
+}
+ul {
+  list-style: none;
+}
+aside {
+  border: 2px solid rgb(111, 146, 243);
+  background-color: azure;
+}
+h4 {
+  text-align: center;
+}
+body {
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-top: 5%;
+}
