@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>le structure de la page</title>
+    <meta charset="UFG-8" />
+    <style>
+      #topPage {
+        width: 100%;
+        height: 100px;
+        background-color: #00ff00;
+      }
+      .logo {
+        width: 150px;
+        height: 100%;
+      }
+      .bandeau {
+        width: 100%;
+        height: 100%;
+        background-color: #006600;
+        text-align: center;
+        color: aliceblue;
+        font-size: medium;
+      }
+      #mainPage {
+        width: 100%;
+        height: 500px;
+        background-color: #00ff00;
+      }
+      .menuGauche {
+        width: 200px;
+        height: 100%;
+        background-color: #660000;
+        float: left;
+        color: aliceblue;
+      }
+
+      .centre {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(231, 160, 231);
+        text-align: justify;
+        font-size: 2em;
+      }
+      .Roma {
+        color: brown;
+      }
+      #basPage {
+        width: 100%;
+        height: 60px;
+        background-color: #8b8be0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header id="topPage">
+      <div class="logo"><img src="./laura-jones.jpg " height="100px" /></div>
+      <div class="bandeau">Bienvenido a los mundos de Yupi</div>
+    </header>
+
+    <div id="mainPage">
+      <nav class="menuGauche">
+        <ul>
+          <li>Perro</li>
+          <li>Gato</li>
+          <li>Loro</li>
+          <li>Otros animales</li>
+        </ul>
+      </nav>
+      <div class="centre">
+        <p>Los caminos que llevan a <spam class="Roma">Roma</spam></p>
+        <p>
+          &nbsp; signifie non breakable space (espace insécable), c’est-à-dire
+          un espace qui sera considéré comme une lettre et ne permettra pas un
+          retour à la ligne entre les deux mots qu’il sépare.<br />
+          S’il faut afficher « Monsieur De Labas », il serait préférable
+          d’éviter de couper le nom de famille et d’avoir « De » en fin de ligne
+          et « Labas » à la ligne suivante.<br />
+          Pour cela, on utilisera l’entité &nbsp; de la façon suivante :
+          dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+          Sr&nbsp;Lopez&nbsp;de&nbsp;la&nbsp;Vega
+        </p>
+      </div>
+    </div>
+
+    <footer id="basPage">Copyright &copy;</footer>
+  </body>
+</html>

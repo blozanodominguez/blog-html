@@ -1,0 +1,98 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: sans serif;
+  color: #444;
+}
+h1,
+h2,
+h3 {
+  color: #1035ad;
+}
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+li {
+  font-size: 20px;
+}
+/* footer p {  
+  font-size: 16px; 
+}*/
+/*header p {
+  font-style: italic;
+}
+*/
+#author {
+  font-style: italic;
+  font-size: 16px;
+}
+#Copyright {
+  font-style: italic;
+  font-size: 16px;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+/*ul,
+ol {
+  list-style: none;
+}*/
+.Retaled {
+  list-style: none;
+}
+aside {
+  border-top: 5px solid #0000ff;
+  border-bottom: 5px solid #0000ff;
+  background-color: #dbdfe9;
+}
+.main-header {
+  background-color: #dbdfe9;
+}
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-weight: bold;
+}
+/*li:nth-child(odd) {
+  color: #ff0000;
+}*/
+a:link {
+  text-decoration: none;
+}
+/*a:visited {
+  color: red;
+  text-decoration:none;
+}*/
+/*body {
+  background-color: cornflowerblue;
+}*/
+a:hover {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline red;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
